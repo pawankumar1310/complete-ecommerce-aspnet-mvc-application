@@ -40,7 +40,6 @@ Here's a summary of the key features you've described:
 
 Our application seems to cover a wide range of functionalities, catering to both regular users looking to purchase movie tickets and admin users who manage the platform's content.
 This detailed summary gives a clear picture of what your e-commerce application offers to its users.
-If you have any specific questions or if you need assistance with any aspect of your application, feel free to ask!
 
 ## Summary
 
