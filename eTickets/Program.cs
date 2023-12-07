@@ -11,6 +11,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionStrings")));
 //services Configuration
 builder.Services.AddScoped<IActorService, ActorsService>();
+builder.Services.AddScoped<IProducerService, ProducerService>();
 
 var app = builder.Build();
 
