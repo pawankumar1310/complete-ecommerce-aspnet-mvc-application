@@ -5,6 +5,7 @@
 
 #user 
 eTickets/appsettings.json
+*.json
 
 
 # User-specific files
