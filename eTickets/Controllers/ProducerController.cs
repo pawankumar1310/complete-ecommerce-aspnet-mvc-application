@@ -30,7 +30,7 @@ namespace eTickets.Controllers
             return View(producerDetails);
             }
         //Create: producer/create
-        public async Task<IActionResult> Create()
+        public IActionResult Create()
             {
             return View();
             }

@@ -79,8 +79,8 @@
                                     Back to List
                                 </a>
                                 <a class="btn btn-success float-start text-white @((DateTime.Now > Model.EndDate) ? "disabled" : "")"
-                               asp-controller="Orders"
-                               asp-action="AddModelToShoppingCart"
+                               asp-controller="Order"
+                               asp-action="AddItemToShoppingCart"
                                asp-route-id="@Model.Id">
                                     <i class="bi bi-cart-plus"></i> Add to Cart (Price @Model.Price.ToString("c"))
                                 </a>

@@ -19,7 +19,7 @@ namespace eTickets.Controllers
             return View(allCinema);
             }
         //Add:Cinema/Create/1
-        public async Task<IActionResult> Create()
+        public IActionResult Create()
             {
             return View();
             }
