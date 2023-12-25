@@ -17,8 +17,12 @@
                             <p class="card-text">
                                 <h5 class="card-title">
                                     @item.Name
-                                    <a class="text-danger float-end me-0" asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-trash"></i> </a>
-                                    <a class="text-white float-end me-2" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i></a>
+                                    @if(User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                                    {
+                                        <a class="text-danger float-end me-0" asp-action="Delete" asp-route-id="@item.Id"><i class="bi bi-trash"></i> </a>
+                                        <a class="text-white float-end me-2" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i></a>
+                                    }
+                                   
                                 </h5>
                             </p>
                         </div>  
