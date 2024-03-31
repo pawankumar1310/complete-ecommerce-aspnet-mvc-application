@@ -41,14 +41,12 @@ Here's a summary of the key features you've described:
 Our application seems to cover a wide range of functionalities, catering to both regular users looking to purchase movie tickets and admin users who manage the platform's content.
 This detailed summary gives a clear picture of what your e-commerce application offers to its users.
 
-## Summary
-
-I have developed an e-commerce application for online movie ticket purchases, offering a user-friendly interface. The webpage features a navigation bar with options like movie search, eTickets, search, login, and register. Movie listings include essential details such as title, description, cinema, category, and start and end dates. Users can explore additional movie information, including actors with profile pictures and full names. Detailed insights into cinemas, producers, and actors can be accessed by clicking their respective names.
-
-The application supports movie searches based on both movie name and description. While public users can view movies without authentication, they can also log in as admin or regular users for purchasing. A simple user can register by providing personal information, then log in to buy tickets. After login, the user's name is displayed along with a dropdown containing options for the user profile and order history.
-
-Authenticated users can add movies to their cart, visible through a cart icon displaying item count. Purchase transactions are facilitated via PayPal. Admin users enjoy additional privileges, notably the management of cinemas, producers, and actors. This includes functionalities to add, delete, and update their information, as well as edit movie icons and add new movies. Admins can also access user and order details. Overall, the application ensures a seamless movie ticket purchasing experience, balancing user convenience and efficient management.
-
+### Tech Stack :
+  - .Net Core MVC, C#, Repository Pattern, HTML, CSS, Bootstrap, Javascript, JQuery
+  - Entity Framework (Code first Approach)
+  - Sql Server, Azure Data Studio
+  - Hosted on Azure.
+    
 
 # About Project 
 
@@ -59,7 +57,7 @@ Authenticated users can add movies to their cart, visible through a cart icon di
 ## Frontend Development:
 ### Frontend Technologies:
 
- -  "On the frontend, I utilized HTML, CSS, and JavaScript. The frontend framework was developed using a popular Blazor."
+ -  On the frontend, I utilized HTML, CSS, and JavaScript JQuery.
 ### User Interface Design:
 
 - "I played a key role in designing the user interface, including the landing page with navigation, movie listings, and details pages. I ensured a responsive design for a seamless user experience."
@@ -102,6 +100,12 @@ Authenticated users can add movies to their cart, visible through a cart icon di
 ### Project Outcome:
 - "In conclusion, the e-commerce application was successfully developed, providing users with a user-friendly platform to browse, purchase, and enjoy movies. The implementation of key features, attention to security, and a seamless user experience were integral to the project's success."
 
+## Summary
 
+- I have developed an e-commerce application for online movie ticket purchases, offering a user-friendly interface. The webpage features a navigation bar with options like movie search, eTickets, search, login, and register. Movie listings include essential details such as title, description, cinema, category, and start and end dates. Users can explore additional movie information, including actors with profile pictures and full names. Detailed insights into cinemas, producers, and actors can be accessed by clicking their respective names.
+
+- The application supports movie searches based on both movie name and description. While public users can view movies without authentication, they can also log in as admin or regular users for purchasing. A simple user can register by providing personal information, then log in to buy tickets. After login, the user's name is displayed along with a dropdown containing options for the user profile and order history.
+
+- Authenticated users can add movies to their cart, visible through a cart icon displaying item count. Purchase transactions are facilitated via PayPal. Admin users enjoy additional privileges, notably the management of cinemas, producers, and actors. This includes functionalities to add, delete, and update their information, as well as edit movie icons and add new movies. Admins can also access user and order details. Overall, the application ensures a seamless movie ticket purchasing experience, balancing user convenience and efficient management.
 
 
